@@ -187,7 +187,7 @@ def main():
                 st.session_state.conversation = get_conversation_chain(
                     vectorstore)
 
-    api_url = "http://localhost/graph-api"
+    api_url = "http://172.178.101.76/graph-api"
 
     # Call the API and pass the response to download_files
     api_response = call_api(api_url)
