@@ -1,0 +1,59 @@
+/* CSS for the custom table */
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Table header styles */
+.table-header {
+  background-color: #f0f0f0;
+  text-align: left;
+  font-weight: lighter;
+  
+}
+
+/* Table header column styles */
+.column-name,
+.column-date,
+.column-type,
+.column-size {
+  padding: 10px;
+  
+}
+
+/* Table row styles */
+.custom-table tbody tr {
+  border-bottom: none;
+}
+
+/* Table data cell styles */
+.custom-table tbody td {
+  padding: 10px;
+}
+
+/* Add icon styles if needed */
+.custom-table tbody svg {
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+/* Apply hover effect to table rows */
+.custom-table tbody tr:hover {
+  background-color: #fcfcfc;
+}
+span{
+  margin-left: 606px;
+}
+.header-1{
+  font-weight:lighter;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:95%;
+  color: grey;
+}
+.column-1{
+  color: rgb(43, 41, 41);
+}
+.icon-1{
+  color: rgb(51, 51, 223);
+}

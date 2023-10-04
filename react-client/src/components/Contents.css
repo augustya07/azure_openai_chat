@@ -1,0 +1,41 @@
+
+
+.mainfolder {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    width: 200px;
+  }
+  
+  .mainfolder .down {
+    transform: rotate(90deg);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .subfolder {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease-in-out;
+    justify-content: center;
+    color: white;
+  }
+  
+  .subfolder.open {
+    max-height: 200px; 
+  }
+.des{
+    background-color:  #0c8ce9;;
+    color: white;
+    padding-left: 10px;
+}  
+.des {
+  width: 200px; 
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  background-color: #1074e7; 
+  box-shadow: 2px 0 4px rgba(0, 0, 0, 0.1);
+  color: aliceblue;
+ 
+  
+  
+}
